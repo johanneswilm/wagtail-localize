@@ -32,14 +32,16 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
         "Framework :: Django",
         "Framework :: Django :: 2.2",
         "Framework :: Django :: 3.0",
         "Framework :: Django :: 3.1",
+        "Framework :: Django :: 3.2",
         "Framework :: Wagtail",
         "Framework :: Wagtail :: 2",
     ],
-    install_requires=["Django>=2.2,<3.2", "Wagtail>=2.11,<2.13", "polib>=1.1,<2.0"],
+    install_requires=["Django>=2.2,<3.3", "Wagtail>=2.11,<2.14", "polib>=1.1,<2.0"],
     extras_require={
         "testing": ["dj-database-url==0.5.0", "freezegun==0.3.15"],
         "documentation": [
